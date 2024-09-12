@@ -1,53 +1,70 @@
-# Windmill Dashboard
+# Saas UI - Next.js - landing page.
 
-A multi theme, completely accessible, with components and pages examples, ready for production dashboard.
+This is a free Next.js landing page template based on https://saas-ui.dev.
+Feel free to submit any feature requests. If you use this template please share what you've built [on Twitter](https://twitter.com/saas_js) 🚀.
 
-🧪 [See it live](https://windmillui.com/dashboard-html)
+**[View demo](https://saas-ui-nextjs-landing-page.netlify.app/)**
 
-- 🦮 Thoroughly accessible
-- 🌗 Light and dark themes
-- 💅 Styled with Tailwind CSS
-- 🧩 Various components
-- ❄ [React version](https://windmillui.com/dashboard-react)
+## Tech
 
-## 🚀 Usage
+- Next.js
+- Chakra UI
+- Saas UI
+- Contentlayer
+- Typescript
 
-Clone or download this repo and everything you need is inside the `public` folder.
+## Features
 
-## 🦮 Accessibility
+- Feature blocks
+- Testimonials
+- Pricing tables
+- Log in and Sign up pages
+- FAQ
 
-This dashboard was developed with a11y in mind since the beginning.
+## In progress
 
-1. Every text passes the WCAG Level AA (at least)
-2. It is completely keyboard navigable
-3. I actually used [NVDA](https://www.nvaccess.org/) to read my screen during development
+- [ ] Supabase Auth
+- [ ] Waitlist sign-up with GetRevue
+- [ ] Blog (Contentlayer)
+- [ ] Docs
 
-Everybody can benefit with good accessibility practices, like the modal, for example ([test it live](https://windmill-dashboard.vercel.app/modals.html)). It uses focus trap techniques to not loose focus when navigating via keyboard and thinking of mobile users with large screen devices, it is placed in the bottom of the screen.
+## Getting Started
 
-## 🌗 Multi theme
+First, clone this repo and run `pnpm i`
 
-It uses Tailwind CSS for styling, and some may say it is totally biased, but it uses the most simple theming plugin there is for it, [Tailwind Multi Theme plugin](https://github.com/estevanmaito/tailwindcss-multi-theme#tailwind-css-multi-theme) (made by me). The result is that, as with regular Tailwind, you have control over every style in your pages.
+To start the app run:
 
-You can see that by navigating through the examples, changing theme and going visiting pages like login or create account, to see different images served for different themes.
+```bash
+pnpm dev
+```
 
-Theme auto detection based on user's OS preferences and local settings storage are enabled by default.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🔮 Future
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-TODO
+## Configuration
 
-- [ ] Make charts accessible through hidden data
-- [ ] Refactor and split `shadow-outline-<color>` plugin
-- [ ] Paginate tables with Alpine
-- [ ] Focus first element when dropdowns are opened
+Configuration files to edit basic site information, add testimonials, faq and pricing table can be found in `/data`.
 
-## OSS used
+## Learn More
 
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Multi Theme](https://github.com/estevanmaito/tailwindcss-multi-theme)
-- [Tailwind Custom Forms](https://github.com/tailwindlabs/tailwindcss-custom-forms)
-- [PostCSS](https://postcss.org/)
-- [Alpine.js](https://github.com/alpinejs/alpine)
-- [Chart.js (charts)](https://www.chartjs.org/)
-- [UI Faces (avatars)](https://uifaces.co/)
-- [Heroicons (icons)](https://heroicons.dev/)
+Find out more about Saas UI.
+
+- [Saas UI Documentation](https://saas-ui.dev/docs/introduction).
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+
+MIT
