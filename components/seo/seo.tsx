@@ -4,7 +4,7 @@ import siteConfig from 'data/config'
 
 export interface SEOProps extends NextSeoProps {}
 
-export const SEO = ({ title, description, ...props }: SEOProps) => (
+export const SEO = ({ title = "TaskFlow - Your Task Management Solution", description = "TaskFlow is a powerful tool for managing your tasks efficiently.", ...props }: SEOProps) => (
   <NextSeo
     title={title}
     description={description}
